@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E23C3A161CE992430008EECE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E23C3A151CE992430008EECE /* main.m */; };
+		E23C3A1F1CE992470008EECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23C3A1D1CE992470008EECE /* Main.storyboard */; };
+		E23C3A211CE992490008EECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E23C3A201CE992490008EECE /* Assets.xcassets */; };
+		E23C3A241CE992490008EECE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23C3A221CE992490008EECE /* LaunchScreen.storyboard */; };
+		E23C3A2F1CE9924C0008EECE /* Parity_Cube__IOS_AssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E23C3A2E1CE9924C0008EECE /* Parity_Cube__IOS_AssignmentTests.m */; };
+		E23C3A3A1CE9924C0008EECE /* Parity_Cube__IOS_AssignmentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E23C3A391CE9924C0008EECE /* Parity_Cube__IOS_AssignmentUITests.m */; };
+		E23C3A571CE9A6590008EECE /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23C3A561CE9A6590008EECE /* SDWebImage.framework */; };
+		E23C3A591CE9A9E90008EECE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23C3A581CE9A9E80008EECE /* ImageIO.framework */; };
+		E23C3A641CE9B0310008EECE /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E23C3A631CE9B0310008EECE /* RequestManager.m */; };
+		E23C3A6F1CE9B03A0008EECE /* DictionaryWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E23C3A681CE9B03A0008EECE /* DictionaryWrapper.m */; };
+		E23C3A701CE9B03A0008EECE /* iOSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E23C3A6B1CE9B03A0008EECE /* iOSHelper.m */; };
+		E23C3A751CE9B0490008EECE /* Deal.m in Sources */ = {isa = PBXBuildFile; fileRef = E23C3A741CE9B0490008EECE /* Deal.m */; };
+		E23C3A791CE9B0550008EECE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E23C3A781CE9B0550008EECE /* ViewController.m */; };
+		E23C3A7D1CE9B0640008EECE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E23C3A7C1CE9B0640008EECE /* AppDelegate.m */; };
+		E23C3A811CE9B0910008EECE /* DealCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E23C3A801CE9B0910008EECE /* DealCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E23C3A2B1CE9924C0008EECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E23C3A091CE992420008EECE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E23C3A101CE992420008EECE;
+			remoteInfo = "Parity Cube -IOS Assignment";
+		};
+		E23C3A361CE9924C0008EECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E23C3A091CE992420008EECE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E23C3A101CE992420008EECE;
+			remoteInfo = "Parity Cube -IOS Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E23C3A111CE992420008EECE /* Parity Cube -IOS Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parity Cube -IOS Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23C3A151CE992430008EECE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E23C3A1E1CE992470008EECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E23C3A201CE992490008EECE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E23C3A231CE992490008EECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E23C3A251CE9924A0008EECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23C3A2A1CE9924C0008EECE /* Parity Cube -IOS AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parity Cube -IOS AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23C3A2E1CE9924C0008EECE /* Parity_Cube__IOS_AssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parity_Cube__IOS_AssignmentTests.m; sourceTree = "<group>"; };
+		E23C3A301CE9924C0008EECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23C3A351CE9924C0008EECE /* Parity Cube -IOS AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parity Cube -IOS AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23C3A391CE9924C0008EECE /* Parity_Cube__IOS_AssignmentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parity_Cube__IOS_AssignmentUITests.m; sourceTree = "<group>"; };
+		E23C3A3B1CE9924C0008EECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23C3A561CE9A6590008EECE /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "Parity Cube -IOS Assignment/SDWebImage.framework"; sourceTree = "<group>"; };
+		E23C3A581CE9A9E80008EECE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		E23C3A621CE9B0310008EECE /* RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
+		E23C3A631CE9B0310008EECE /* RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
+		E23C3A671CE9B03A0008EECE /* DictionaryWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionaryWrapper.h; sourceTree = "<group>"; };
+		E23C3A681CE9B03A0008EECE /* DictionaryWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryWrapper.m; sourceTree = "<group>"; };
+		E23C3A6A1CE9B03A0008EECE /* iOSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSHelper.h; sourceTree = "<group>"; };
+		E23C3A6B1CE9B03A0008EECE /* iOSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSHelper.m; sourceTree = "<group>"; };
+		E23C3A731CE9B0490008EECE /* Deal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deal.h; sourceTree = "<group>"; };
+		E23C3A741CE9B0490008EECE /* Deal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deal.m; sourceTree = "<group>"; };
+		E23C3A771CE9B0550008EECE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E23C3A781CE9B0550008EECE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E23C3A7B1CE9B0640008EECE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E23C3A7C1CE9B0640008EECE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E23C3A7F1CE9B0910008EECE /* DealCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealCell.h; sourceTree = "<group>"; };
+		E23C3A801CE9B0910008EECE /* DealCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E23C3A0E1CE992420008EECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23C3A591CE9A9E90008EECE /* ImageIO.framework in Frameworks */,
+				E23C3A571CE9A6590008EECE /* SDWebImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23C3A271CE9924C0008EECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23C3A321CE9924C0008EECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E23C3A081CE992410008EECE = {
+			isa = PBXGroup;
+			children = (
+				E23C3A131CE992430008EECE /* Parity Cube -IOS Assignment */,
+				E23C3A5F1CE9AF710008EECE /* Frameworks */,
+				E23C3A2D1CE9924C0008EECE /* Parity Cube -IOS AssignmentTests */,
+				E23C3A381CE9924C0008EECE /* Parity Cube -IOS AssignmentUITests */,
+				E23C3A121CE992430008EECE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E23C3A121CE992430008EECE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E23C3A111CE992420008EECE /* Parity Cube -IOS Assignment.app */,
+				E23C3A2A1CE9924C0008EECE /* Parity Cube -IOS AssignmentTests.xctest */,
+				E23C3A351CE9924C0008EECE /* Parity Cube -IOS AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E23C3A131CE992430008EECE /* Parity Cube -IOS Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				E23C3A7A1CE9B0640008EECE /* UIApplication */,
+				E23C3A761CE9B0550008EECE /* View Controller */,
+				E23C3A7E1CE9B0910008EECE /* Cell */,
+				E23C3A721CE9B0490008EECE /* Data Model */,
+				E23C3A651CE9B03A0008EECE /* Helper Classes */,
+				E23C3A611CE9B0310008EECE /* Request Manager */,
+				E23C3A601CE9AFFF0008EECE /* User Interface */,
+				E23C3A141CE992430008EECE /* Supporting Files */,
+			);
+			path = "Parity Cube -IOS Assignment";
+			sourceTree = "<group>";
+		};
+		E23C3A141CE992430008EECE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E23C3A201CE992490008EECE /* Assets.xcassets */,
+				E23C3A251CE9924A0008EECE /* Info.plist */,
+				E23C3A151CE992430008EECE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E23C3A2D1CE9924C0008EECE /* Parity Cube -IOS AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				E23C3A2E1CE9924C0008EECE /* Parity_Cube__IOS_AssignmentTests.m */,
+				E23C3A301CE9924C0008EECE /* Info.plist */,
+			);
+			path = "Parity Cube -IOS AssignmentTests";
+			sourceTree = "<group>";
+		};
+		E23C3A381CE9924C0008EECE /* Parity Cube -IOS AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E23C3A391CE9924C0008EECE /* Parity_Cube__IOS_AssignmentUITests.m */,
+				E23C3A3B1CE9924C0008EECE /* Info.plist */,
+			);
+			path = "Parity Cube -IOS AssignmentUITests";
+			sourceTree = "<group>";
+		};
+		E23C3A5F1CE9AF710008EECE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E23C3A561CE9A6590008EECE /* SDWebImage.framework */,
+				E23C3A581CE9A9E80008EECE /* ImageIO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E23C3A601CE9AFFF0008EECE /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				E23C3A1D1CE992470008EECE /* Main.storyboard */,
+				E23C3A221CE992490008EECE /* LaunchScreen.storyboard */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		E23C3A611CE9B0310008EECE /* Request Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E23C3A621CE9B0310008EECE /* RequestManager.h */,
+				E23C3A631CE9B0310008EECE /* RequestManager.m */,
+			);
+			path = "Request Manager";
+			sourceTree = "<group>";
+		};
+		E23C3A651CE9B03A0008EECE /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E23C3A661CE9B03A0008EECE /* Dictionary Helper */,
+				E23C3A691CE9B03A0008EECE /* iOS Helper */,
+			);
+			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		E23C3A661CE9B03A0008EECE /* Dictionary Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E23C3A671CE9B03A0008EECE /* DictionaryWrapper.h */,
+				E23C3A681CE9B03A0008EECE /* DictionaryWrapper.m */,
+			);
+			path = "Dictionary Helper";
+			sourceTree = "<group>";
+		};
+		E23C3A691CE9B03A0008EECE /* iOS Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E23C3A6A1CE9B03A0008EECE /* iOSHelper.h */,
+				E23C3A6B1CE9B03A0008EECE /* iOSHelper.m */,
+			);
+			path = "iOS Helper";
+			sourceTree = "<group>";
+		};
+		E23C3A721CE9B0490008EECE /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				E23C3A731CE9B0490008EECE /* Deal.h */,
+				E23C3A741CE9B0490008EECE /* Deal.m */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		E23C3A761CE9B0550008EECE /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E23C3A771CE9B0550008EECE /* ViewController.h */,
+				E23C3A781CE9B0550008EECE /* ViewController.m */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		E23C3A7A1CE9B0640008EECE /* UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				E23C3A7B1CE9B0640008EECE /* AppDelegate.h */,
+				E23C3A7C1CE9B0640008EECE /* AppDelegate.m */,
+			);
+			path = UIApplication;
+			sourceTree = "<group>";
+		};
+		E23C3A7E1CE9B0910008EECE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E23C3A7F1CE9B0910008EECE /* DealCell.h */,
+				E23C3A801CE9B0910008EECE /* DealCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E23C3A101CE992420008EECE /* Parity Cube -IOS Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23C3A3E1CE9924C0008EECE /* Build configuration list for PBXNativeTarget "Parity Cube -IOS Assignment" */;
+			buildPhases = (
+				E23C3A0D1CE992420008EECE /* Sources */,
+				E23C3A0E1CE992420008EECE /* Frameworks */,
+				E23C3A0F1CE992420008EECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Parity Cube -IOS Assignment";
+			productName = "Parity Cube -IOS Assignment";
+			productReference = E23C3A111CE992420008EECE /* Parity Cube -IOS Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E23C3A291CE9924C0008EECE /* Parity Cube -IOS AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23C3A411CE9924C0008EECE /* Build configuration list for PBXNativeTarget "Parity Cube -IOS AssignmentTests" */;
+			buildPhases = (
+				E23C3A261CE9924C0008EECE /* Sources */,
+				E23C3A271CE9924C0008EECE /* Frameworks */,
+				E23C3A281CE9924C0008EECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E23C3A2C1CE9924C0008EECE /* PBXTargetDependency */,
+			);
+			name = "Parity Cube -IOS AssignmentTests";
+			productName = "Parity Cube -IOS AssignmentTests";
+			productReference = E23C3A2A1CE9924C0008EECE /* Parity Cube -IOS AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E23C3A341CE9924C0008EECE /* Parity Cube -IOS AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23C3A441CE9924C0008EECE /* Build configuration list for PBXNativeTarget "Parity Cube -IOS AssignmentUITests" */;
+			buildPhases = (
+				E23C3A311CE9924C0008EECE /* Sources */,
+				E23C3A321CE9924C0008EECE /* Frameworks */,
+				E23C3A331CE9924C0008EECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E23C3A371CE9924C0008EECE /* PBXTargetDependency */,
+			);
+			name = "Parity Cube -IOS AssignmentUITests";
+			productName = "Parity Cube -IOS AssignmentUITests";
+			productReference = E23C3A351CE9924C0008EECE /* Parity Cube -IOS AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E23C3A091CE992420008EECE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "XYZ Technologies";
+				TargetAttributes = {
+					E23C3A101CE992420008EECE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E23C3A291CE9924C0008EECE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E23C3A101CE992420008EECE;
+					};
+					E23C3A341CE9924C0008EECE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E23C3A101CE992420008EECE;
+					};
+				};
+			};
+			buildConfigurationList = E23C3A0C1CE992420008EECE /* Build configuration list for PBXProject "Parity Cube -IOS Assignment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E23C3A081CE992410008EECE;
+			productRefGroup = E23C3A121CE992430008EECE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E23C3A101CE992420008EECE /* Parity Cube -IOS Assignment */,
+				E23C3A291CE9924C0008EECE /* Parity Cube -IOS AssignmentTests */,
+				E23C3A341CE9924C0008EECE /* Parity Cube -IOS AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E23C3A0F1CE992420008EECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23C3A241CE992490008EECE /* LaunchScreen.storyboard in Resources */,
+				E23C3A211CE992490008EECE /* Assets.xcassets in Resources */,
+				E23C3A1F1CE992470008EECE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23C3A281CE9924C0008EECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23C3A331CE9924C0008EECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E23C3A0D1CE992420008EECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23C3A791CE9B0550008EECE /* ViewController.m in Sources */,
+				E23C3A6F1CE9B03A0008EECE /* DictionaryWrapper.m in Sources */,
+				E23C3A751CE9B0490008EECE /* Deal.m in Sources */,
+				E23C3A811CE9B0910008EECE /* DealCell.m in Sources */,
+				E23C3A701CE9B03A0008EECE /* iOSHelper.m in Sources */,
+				E23C3A7D1CE9B0640008EECE /* AppDelegate.m in Sources */,
+				E23C3A161CE992430008EECE /* main.m in Sources */,
+				E23C3A641CE9B0310008EECE /* RequestManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23C3A261CE9924C0008EECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23C3A2F1CE9924C0008EECE /* Parity_Cube__IOS_AssignmentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23C3A311CE9924C0008EECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23C3A3A1CE9924C0008EECE /* Parity_Cube__IOS_AssignmentUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E23C3A2C1CE9924C0008EECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E23C3A101CE992420008EECE /* Parity Cube -IOS Assignment */;
+			targetProxy = E23C3A2B1CE9924C0008EECE /* PBXContainerItemProxy */;
+		};
+		E23C3A371CE9924C0008EECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E23C3A101CE992420008EECE /* Parity Cube -IOS Assignment */;
+			targetProxy = E23C3A361CE9924C0008EECE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E23C3A1D1CE992470008EECE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E23C3A1E1CE992470008EECE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E23C3A221CE992490008EECE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E23C3A231CE992490008EECE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E23C3A3C1CE9924C0008EECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E23C3A3D1CE9924C0008EECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E23C3A3F1CE9924C0008EECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Parity",
+					Cube,
+					"-IOS",
+					Assignment,
+				);
+				INFOPLIST_FILE = "Parity Cube -IOS Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Parity-Cube--IOS-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E23C3A401CE9924C0008EECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Parity",
+					Cube,
+					"-IOS",
+					Assignment,
+				);
+				INFOPLIST_FILE = "Parity Cube -IOS Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Parity-Cube--IOS-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E23C3A421CE9924C0008EECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Parity Cube -IOS AssignmentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Parity-Cube--IOS-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parity Cube -IOS Assignment.app/Parity Cube -IOS Assignment";
+			};
+			name = Debug;
+		};
+		E23C3A431CE9924C0008EECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Parity Cube -IOS AssignmentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Parity-Cube--IOS-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parity Cube -IOS Assignment.app/Parity Cube -IOS Assignment";
+			};
+			name = Release;
+		};
+		E23C3A451CE9924C0008EECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Parity Cube -IOS AssignmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Parity-Cube--IOS-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Parity Cube -IOS Assignment";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E23C3A461CE9924C0008EECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Parity Cube -IOS AssignmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Parity-Cube--IOS-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Parity Cube -IOS Assignment";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E23C3A0C1CE992420008EECE /* Build configuration list for PBXProject "Parity Cube -IOS Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23C3A3C1CE9924C0008EECE /* Debug */,
+				E23C3A3D1CE9924C0008EECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E23C3A3E1CE9924C0008EECE /* Build configuration list for PBXNativeTarget "Parity Cube -IOS Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23C3A3F1CE9924C0008EECE /* Debug */,
+				E23C3A401CE9924C0008EECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E23C3A411CE9924C0008EECE /* Build configuration list for PBXNativeTarget "Parity Cube -IOS AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23C3A421CE9924C0008EECE /* Debug */,
+				E23C3A431CE9924C0008EECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E23C3A441CE9924C0008EECE /* Build configuration list for PBXNativeTarget "Parity Cube -IOS AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23C3A451CE9924C0008EECE /* Debug */,
+				E23C3A461CE9924C0008EECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E23C3A091CE992420008EECE /* Project object */;
+}
